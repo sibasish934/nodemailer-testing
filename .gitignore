@@ -1,2 +1,4 @@
 node_modules/
 config/
+
+/* include the config file which contains the email and password for your email address.

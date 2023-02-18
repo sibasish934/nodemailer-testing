@@ -45,7 +45,7 @@ export const getBill = (req, res, next) => {
         service: 'gmail',
         auth:{
             user:process.env.EMAIL,
-            pass: process.env.PASS,
+            pass: process.env.PASS, // here the password the generated from google app password comes.
         }
     }
 
